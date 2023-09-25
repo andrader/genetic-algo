@@ -1,5 +1,14 @@
 import numpy as np
 
+"""
+A population is a set of individuals.
+A individual is a set of characteristics - alleles.
+Each characteristic comes from a pool of possible characteristics - genes.
+
+
+
+"""
+
 
 class BaseIndividual():
 
@@ -17,7 +26,7 @@ class BaseIndividual():
     
     
     def mate(self, other):
-        """For each chromossome position, picks a """
+        """For each chromosome position, picks a """
         picks = np.random.randint(2, size=self.size).astype(bool)
 
         child1 = np.choose(picks, choices=[self.chromosome, other.chromosome])

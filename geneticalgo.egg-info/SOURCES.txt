@@ -1,0 +1,8 @@
+README.md
+setup.py
+ga/__init__.py
+ga/genetic_algo.py
+geneticalgo.egg-info/PKG-INFO
+geneticalgo.egg-info/SOURCES.txt
+geneticalgo.egg-info/dependency_links.txt
+geneticalgo.egg-info/top_level.txt
